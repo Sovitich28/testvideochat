@@ -1,4 +1,4 @@
-const socket = io();
+const socket = io('https://backend-2mfz.onrender.com');
 let localStream;
 let peerConnections = {};
 const roomIdInput = document.getElementById('roomId');
